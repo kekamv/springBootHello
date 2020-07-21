@@ -1,7 +1,6 @@
-package springBootInitialDemo.configuration;
+package springBootHello.configuration;
 
-import java.util.TimeZone;
-
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -9,9 +8,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import java.util.TimeZone;
 
-@ComponentScan(basePackages = {"springBootInitialDemo"})
+@ComponentScan(basePackages = {"springBootHello"})
 @Configuration
 @EnableWebMvc
 public class WebMVCConfiguration extends WebMvcConfigurerAdapter {
