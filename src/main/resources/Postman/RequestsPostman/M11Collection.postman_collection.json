@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "e3fd5c89-2f3f-44d2-9558-c38394cc75c8",
+		"name": "M11Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GETLocal",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{IP}}:{{port}}/",
+					"protocol": "http",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETDevelopment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{IP}}",
+					"protocol": "http",
+					"host": [
+						"{{IP}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETPre-Production",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{IP}}",
+					"protocol": "http",
+					"host": [
+						"{{IP}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
